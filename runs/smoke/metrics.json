@@ -1,0 +1,43 @@
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 81920,
+  "preparation_seconds": 6.908794799936004,
+  "train_seconds": 2.532792199985124,
+  "validation": {
+    "bpb": 3.5798219680329892,
+    "token_ppl": 1927.5652318675973,
+    "nll_nats": 2848599.7120523453,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 4.654226200073026
+  },
+  "history": [
+    {
+      "step": 10,
+      "loss": 7.568997859954834,
+      "seconds": 2.53264750004746
+    }
+  ],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 14.106253599980846,
+  "torch_version": "2.14.0+cu126",
+  "threads": 4,
+  "checkpoint_sha256": "eaab3970a8141b45e82f039d2295e987479cc6ce74b840de11d851fba1269178",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}
