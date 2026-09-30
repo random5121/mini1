@@ -1,0 +1,23 @@
+{
+    "vocab":  2048,
+    "width":  128,
+    "heads":  8,
+    "depth":  8,
+    "context":  256,
+
+    "residual_gates":  false,
+    "residual_gate_init":  0.1,
+
+    "attention_mode":  "global",
+    "attention_window":  128,
+    "global_attention_every":  4,
+
+    "dropout":  0.1,
+
+    "ngram_enabled":  false,
+    "ngram_mix":  0.1,
+    "ngram_slots":  32768,
+
+    "temperature_scaling":  true,
+    "temperature":  1.2
+}
